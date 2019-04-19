@@ -1,0 +1,29 @@
+{
+  "name": "dalton-js",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "jquery": "^3.2.1",
+    "mongoose": "^5.4.20",
+    "node-dir": "^0.1.17",
+    "nodemon": "^1.18.10",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-ga": "^2.3.5",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "engage": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "client": "yarn start",
+    "server": "node server.js",
+    "debug": "node inspect server.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "kill": "lsof -P | grep ':5000' | awk '{print $2}' | xargs kill -9",
+    "reinstall": "rm -rf node_modules && npm install"
+  }
+}
