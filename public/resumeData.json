@@ -1,0 +1,93 @@
+{
+  "main": {
+    "name":"Dalton Wais",
+    "occupation":"Senior Full Stack Software and Web Developer",
+    "description":"I write code and use data aggregation to solve problems and increase automation for companies and individuals.",
+    "bio":"This site was built using ReactJS, NodeJS and Postgres.  It is intended to demo and showcase some projects and concepts I have been working on.  All the source code is open source and available on my github account (link above).",
+    "contactmessage":"I am available for consultation and freelance work",
+    "email": "georgedaltonwais@gmail.com",
+    "address":{
+      "city":"Denver",
+      "state":"Colorado",
+      "zip": "80234"
+    },
+    "website": "http://www.daltonwais.codes",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/daltonwais/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/gdwais/dalton-js",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "work":[
+      {
+        "company":"Self Employed Freelance",
+        "title":"Full Stack Software Developer & Technology Consultant",
+        "years":"August 2013 - Present",
+        "description":"Providing advice, mentorship and coding to business and individuals as needed"
+      },
+      {
+        "company": "Motili",
+        "title": "Senior Software Developer",
+        "years": "May 2019 - Present",
+        "description": ""
+      },
+      {
+        "company":"Charter Communications",
+        "title":"Full Stack Software Developer",
+        "years":"August 2017 - May 2019",
+        "description":"Project lead and developer utilizing NodeJS, Ruby, Postgres, Redis, Mongo and EXTJS"
+      },
+      {
+        "company":"Stone Enterprises, Inc.",
+        "title":"Lead Software Developer",
+        "years":"September 2013 - August 2017 (ongoing freelance)",
+        "description":"Provide development utilizing C#, PHP and "
+      }
+    ]
+  },
+  "examples": [
+
+  ],
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"fury-fighting-gear.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"original-thai-food.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"smirkspace.jpg",
+        "url":"http://www.smirkspace.com"
+      }
+    ]
+  }
+}

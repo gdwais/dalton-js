@@ -6,8 +6,6 @@
     "concurrently": "^4.1.0",
     "express": "^4.16.4",
     "jquery": "^3.2.1",
-    "mongoose": "^5.4.20",
-    "node-dir": "^0.1.17",
     "nodemon": "^1.18.10",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",

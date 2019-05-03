@@ -1,4 +1,4 @@
 module.exports = {
-    DB_URL: "mongodb://localhost/dalton-mongo-db",
+    connectionString: 'postgres://localhost:5432/dalton-db',
     PORT: 5750
 };
