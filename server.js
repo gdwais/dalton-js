@@ -3,9 +3,14 @@ const app = express();
 const config = require('./config/default');
 const pkg = require('./package.json');
 
-global.logMessage = (msg) => {
-    console.log(`${pkg.name} v${pkg.version} :: ${msg}`);
+global.logMessage = (msg, data) => {
+    console.log(`${pkg.name} v${pkg.version} :: ${msg}`, data);
 };
+
+
+const JobManager = require('./server/JobManager');
+
+JobManager.kickOffJobQueue(config.mockJobs);
 
 (async () => {
     (async () => {
